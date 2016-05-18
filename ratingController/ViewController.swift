@@ -14,6 +14,7 @@ class ViewController: UIViewController {
         print("first Viewcontroller initiated")
         super.init(coder: aDecoder);
         print("tring tring")
+        print("tring tring")
     }
     
     
