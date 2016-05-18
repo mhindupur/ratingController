@@ -10,6 +10,16 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    required init?(coder aDecoder: NSCoder) {
+        print("first Viewcontroller initiated")
+        super.init(coder: aDecoder);
+    }
+    
+    
+    deinit
+    {
+        print(print("first Viewcontroller de initiated.."))
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
