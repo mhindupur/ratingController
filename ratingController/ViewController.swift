@@ -13,6 +13,7 @@ class ViewController: UIViewController {
     required init?(coder aDecoder: NSCoder) {
         print("first Viewcontroller initiated")
         super.init(coder: aDecoder);
+        print("tring tring")
     }
     
     
