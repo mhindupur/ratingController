@@ -23,7 +23,7 @@ class PlayerDetails: UITableViewController {
     
     deinit
     {
-        print(print("Player details de initiated.."))
+        print(print("adding Text for Testing GitHub commit"))
     }
     var player:Player?
     
